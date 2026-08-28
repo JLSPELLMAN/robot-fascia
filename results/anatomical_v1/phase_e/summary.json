@@ -1,0 +1,331 @@
+{
+  "architecture": "Anatomical Exofascia v1",
+  "phase": "E \u2014 propagation validation",
+  "performance_testing_performed": false,
+  "optimization_performed": false,
+  "case_count": 5,
+  "all_solvers_converged": true,
+  "all_expected_regions_engaged": false,
+  "cases": {
+    "left_shoulder_displacement": {
+      "success": true,
+      "iterations": 774,
+      "free_force_residual_n": 3.285919784203594e-05,
+      "moved_attachment_nodes": [
+        41,
+        44,
+        241,
+        242,
+        243,
+        244
+      ],
+      "stored_energy_j": 0.7126164558689102,
+      "net_internal_force_n": [
+        -2.886579864025407e-15,
+        -1.1546319456101628e-14,
+        -5.660836382981316e-15
+      ],
+      "net_internal_torque_nm": [
+        -1.199040866595169e-14,
+        1.1102230246251565e-16,
+        2.498001805406602e-16
+      ],
+      "expected_region_metrics": {
+        "deep_thoracic": {
+          "max_nodal_force_n": 2.0556542476408003e-05,
+          "max_tension_n": 0.46302547269844213,
+          "stored_energy_j": 0.0011909454672567443,
+          "max_delta_tension_n": 0.34462203529173824,
+          "engaged_edge_count": 11,
+          "engaged_axial_edge_count": 8
+        },
+        "deep_pelvic_fascia": {
+          "max_nodal_force_n": 0.710335374885059,
+          "max_tension_n": 2.2187149174646734,
+          "stored_energy_j": 0.020740891383689678,
+          "max_delta_tension_n": 0.33359026781847834,
+          "engaged_edge_count": 5,
+          "engaged_axial_edge_count": 2
+        },
+        "left_proximal_thigh": {
+          "max_nodal_force_n": 0.2696587971345362,
+          "max_tension_n": 0.23947212940026136,
+          "stored_energy_j": 0.0009186312357148687,
+          "max_delta_tension_n": 0.001730681520089039,
+          "engaged_edge_count": 2,
+          "engaged_axial_edge_count": 2
+        },
+        "right_proximal_thigh": {
+          "max_nodal_force_n": 0.054555995311697934,
+          "max_tension_n": 0.22185095788265122,
+          "stored_energy_j": 0.0008413464798775487,
+          "max_delta_tension_n": 0.0858071198732974,
+          "engaged_edge_count": 1,
+          "engaged_axial_edge_count": 1
+        }
+      },
+      "all_expected_regions_engaged": true
+    },
+    "pelvic_rotation": {
+      "success": true,
+      "iterations": 2,
+      "free_force_residual_n": 4.9711124607659815e-05,
+      "moved_attachment_nodes": [
+        0,
+        2,
+        4,
+        6,
+        296,
+        298,
+        299,
+        300,
+        301,
+        302
+      ],
+      "stored_energy_j": 0.12512798501159472,
+      "net_internal_force_n": [
+        8.881784197001252e-16,
+        1.4432899320127035e-15,
+        6.934557095217286e-16
+      ],
+      "net_internal_torque_nm": [
+        1.6653345369377348e-16,
+        -1.2212453270876722e-15,
+        1.6653345369377348e-16
+      ],
+      "expected_region_metrics": {
+        "deep_thoracic": {
+          "max_nodal_force_n": 1.7022247169077002e-05,
+          "max_tension_n": 0.46302547248655984,
+          "stored_energy_j": 0.0008576622203502905,
+          "max_delta_tension_n": 0.014051252359291763,
+          "engaged_edge_count": 14,
+          "engaged_axial_edge_count": 11
+        },
+        "deep_right_shoulder_girdle": {
+          "max_nodal_force_n": 3.5481224753034595,
+          "max_tension_n": 1.6583822669784254,
+          "stored_energy_j": 0.007235475606390451,
+          "max_delta_tension_n": 0.01540897424350307,
+          "engaged_edge_count": 1,
+          "engaged_axial_edge_count": 1
+        },
+        "deep_left_fascia_lata": {
+          "max_nodal_force_n": 1.9095019519337467e-05,
+          "max_tension_n": 1.8877962997226547,
+          "stored_energy_j": 0.008934330066117675,
+          "max_delta_tension_n": 0.017160697530504587,
+          "engaged_edge_count": 17,
+          "engaged_axial_edge_count": 11
+        },
+        "deep_right_fascia_lata": {
+          "max_nodal_force_n": 3.7189680238124935e-05,
+          "max_tension_n": 1.9295131327528658,
+          "stored_energy_j": 0.009343906132874476,
+          "max_delta_tension_n": 0.03868383076995774,
+          "engaged_edge_count": 12,
+          "engaged_axial_edge_count": 8
+        }
+      },
+      "all_expected_regions_engaged": true
+    },
+    "heel_ankle_dorsiflexion": {
+      "success": true,
+      "iterations": 1105,
+      "free_force_residual_n": 4.985228958439187e-05,
+      "moved_attachment_nodes": [
+        107,
+        110,
+        119,
+        122,
+        388,
+        390,
+        397,
+        398,
+        399
+      ],
+      "stored_energy_j": 0.12574658232932112,
+      "net_internal_force_n": [
+        1.7763568394002505e-15,
+        -2.1094237467877974e-15,
+        2.095979639848977e-15
+      ],
+      "net_internal_torque_nm": [
+        2.7755575615628914e-16,
+        -2.220446049250313e-16,
+        0.0
+      ],
+      "expected_region_metrics": {
+        "left_plantar": {
+          "max_nodal_force_n": 2.790571902079133,
+          "max_tension_n": 1.7750273926774993,
+          "stored_energy_j": 0.011838377605613409,
+          "max_delta_tension_n": 0.4337807533563124,
+          "engaged_edge_count": 33,
+          "engaged_axial_edge_count": 21
+        },
+        "deep_left_crural": {
+          "max_nodal_force_n": 1.2683537591628066e-05,
+          "max_tension_n": 0.7922819189559127,
+          "stored_energy_j": 0.0017793525641952386,
+          "max_delta_tension_n": 2.3207300589411783e-05,
+          "engaged_edge_count": 0,
+          "engaged_axial_edge_count": 0
+        },
+        "deep_left_distal_crural": {
+          "max_nodal_force_n": 0.8533536598360787,
+          "max_tension_n": 0.7922819189559127,
+          "stored_energy_j": 0.0010987830740971179,
+          "max_delta_tension_n": 2.3207300589411783e-05,
+          "engaged_edge_count": 0,
+          "engaged_axial_edge_count": 0
+        }
+      },
+      "all_expected_regions_engaged": false
+    },
+    "arm_elevation": {
+      "success": true,
+      "iterations": 693,
+      "free_force_residual_n": 5.389235530246212e-05,
+      "moved_attachment_nodes": [
+        41,
+        44,
+        53,
+        56,
+        65,
+        68,
+        241,
+        242,
+        243,
+        244,
+        253,
+        256,
+        259,
+        260,
+        261,
+        262
+      ],
+      "stored_energy_j": 0.12066493925120708,
+      "net_internal_force_n": [
+        8.881784197001252e-16,
+        3.3306690738754696e-16,
+        -1.826663820203578e-15
+      ],
+      "net_internal_torque_nm": [
+        -4.996003610813204e-16,
+        -4.440892098500626e-16,
+        2.7755575615628914e-17
+      ],
+      "expected_region_metrics": {
+        "deep_left_forearm": {
+          "max_nodal_force_n": 1.3792468471031187,
+          "max_tension_n": 1.1200098574577448,
+          "stored_energy_j": 0.003396515701473149,
+          "max_delta_tension_n": 0.06639503191710228,
+          "engaged_edge_count": 6,
+          "engaged_axial_edge_count": 6
+        },
+        "deep_left_upper_arm": {
+          "max_nodal_force_n": 5.3567148267286026e-05,
+          "max_tension_n": 1.1330216834535045,
+          "stored_energy_j": 0.006770913133098349,
+          "max_delta_tension_n": 0.07387410807347192,
+          "engaged_edge_count": 27,
+          "engaged_axial_edge_count": 18
+        },
+        "deep_left_shoulder_girdle": {
+          "max_nodal_force_n": 3.3113127081774283,
+          "max_tension_n": 1.6260584189576206,
+          "stored_energy_j": 0.005948632525679842,
+          "max_delta_tension_n": 0.2600484924751093,
+          "engaged_edge_count": 18,
+          "engaged_axial_edge_count": 13
+        },
+        "deep_scapular_chest": {
+          "max_nodal_force_n": 2.31182973776356,
+          "max_tension_n": 1.6583822669784254,
+          "stored_energy_j": 0.022252131641909496,
+          "max_delta_tension_n": 0.2600484924751093,
+          "engaged_edge_count": 9,
+          "engaged_axial_edge_count": 8
+        },
+        "neck": {
+          "max_nodal_force_n": 0.3492225439378461,
+          "max_tension_n": 0.30861233379397535,
+          "stored_energy_j": 0.0007886306875858619,
+          "max_delta_tension_n": 0.20877242079848393,
+          "engaged_edge_count": 3,
+          "engaged_axial_edge_count": 2
+        }
+      },
+      "all_expected_regions_engaged": true
+    },
+    "torso_twist": {
+      "success": true,
+      "iterations": 1127,
+      "free_force_residual_n": 6.455751699340429e-05,
+      "moved_attachment_nodes": [
+        16,
+        18,
+        20,
+        22,
+        32,
+        34,
+        36,
+        38,
+        216,
+        218,
+        220,
+        222,
+        232,
+        234,
+        236,
+        238
+      ],
+      "stored_energy_j": 0.17953771023643605,
+      "net_internal_force_n": [
+        -5.995204332975845e-15,
+        -2.220446049250313e-16,
+        -1.796522999808481e-15
+      ],
+      "net_internal_torque_nm": [
+        -2.7755575615628914e-16,
+        1.5543122344752192e-15,
+        -3.885780586188048e-16
+      ],
+      "expected_region_metrics": {
+        "deep_thoracic": {
+          "max_nodal_force_n": 4.467479911589124e-05,
+          "max_tension_n": 0.4648068822137542,
+          "stored_energy_j": 0.0009905612672394593,
+          "max_delta_tension_n": 0.2406570549475302,
+          "engaged_edge_count": 15,
+          "engaged_axial_edge_count": 10
+        },
+        "deep_lumbar": {
+          "max_nodal_force_n": 1.4654650736488993e-05,
+          "max_tension_n": 0.04849017644035521,
+          "stored_energy_j": 0.0001083728438220969,
+          "max_delta_tension_n": 0.04849017644035521,
+          "engaged_edge_count": 23,
+          "engaged_axial_edge_count": 10
+        },
+        "deep_pelvic_fascia": {
+          "max_nodal_force_n": 0.7239921771475591,
+          "max_tension_n": 2.2185094524681586,
+          "stored_energy_j": 0.022155280378823236,
+          "max_delta_tension_n": 0.1901720075249374,
+          "engaged_edge_count": 11,
+          "engaged_axial_edge_count": 3
+        }
+      },
+      "all_expected_regions_engaged": true
+    }
+  },
+  "topology_hash": "757f4dfcef2c2ce48d118a05a9abf88be09ac986a0df8e7f39f3b4de3758bd2d",
+  "assembly_pretension": 0.01,
+  "engagement_delta_tension_n": 0.001,
+  "reinforced_pathway_pretension": 0.03,
+  "interpretation": "These are prescribed quasi-static network propagation diagnostics, not humanoid performance results.",
+  "validation_status": "failed_expected_distant_region_engagement"
+}

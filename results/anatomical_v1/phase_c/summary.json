@@ -1,0 +1,40 @@
+{
+  "architecture": "Anatomical Exofascia v1",
+  "phase": "C \u2014 reinforced pathway geometry only",
+  "mechanics_enabled": false,
+  "optimization_performed": false,
+  "node_count": 412,
+  "edge_count": 1102,
+  "reinforced_edge_count": 48,
+  "pathway_edge_counts": {
+    "reinforced_posterior_cross_body": 12,
+    "reinforced_lateral_leg": 8,
+    "reinforced_calf_achilles_plantar": 12,
+    "reinforced_upper_limb_continuity": 16
+  },
+  "pathway_evidence": {
+    "reinforced_posterior_cross_body": [
+      "moderate"
+    ],
+    "reinforced_lateral_leg": [
+      "strong"
+    ],
+    "reinforced_calf_achilles_plantar": [
+      "strong"
+    ],
+    "reinforced_upper_limb_continuity": [
+      "moderate"
+    ]
+  },
+  "topology_hash": "4a96d56b9d7aa5ae68eaafc2c3ad4ef3a7e50eb8edfab6e49236ba9026e48335",
+  "scientific_scope": "Routes are biomimetic engineering abstractions; Phase C does not assign stiffness or claim physiological functional significance.",
+  "deferred_until_later_phases": [
+    "anisotropic directional properties",
+    "sliding/shear interfaces",
+    "nonlinear tension-only material behavior",
+    "passivity revalidation",
+    "propagation testing",
+    "performance testing",
+    "optimization"
+  ]
+}

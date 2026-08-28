@@ -1,0 +1,7 @@
+mujoco==3.3.7
+numpy==2.3.2
+matplotlib==3.10.5
+PyYAML==6.0.2
+pytest==8.4.1
+setuptools==80.9.0
+scipy==1.16.1

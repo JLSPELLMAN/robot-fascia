@@ -1,0 +1,560 @@
+{
+  "success": true,
+  "iterations": 1105,
+  "free_force_residual_n": 4.985228958439187e-05,
+  "moved_attachment_nodes": [
+    107,
+    110,
+    119,
+    122,
+    388,
+    390,
+    397,
+    398,
+    399
+  ],
+  "stored_energy_j": 0.12574658232932112,
+  "net_internal_force_n": [
+    1.7763568394002505e-15,
+    -2.1094237467877974e-15,
+    2.095979639848977e-15
+  ],
+  "net_internal_torque_nm": [
+    2.7755575615628914e-16,
+    -2.220446049250313e-16,
+    0.0
+  ],
+  "expected_region_metrics": {
+    "left_plantar": {
+      "max_nodal_force_n": 2.790571902079133,
+      "max_tension_n": 1.7750273926774993,
+      "stored_energy_j": 0.011838377605613409,
+      "max_delta_tension_n": 0.4337807533563124,
+      "engaged_edge_count": 33,
+      "engaged_axial_edge_count": 21
+    },
+    "deep_left_crural": {
+      "max_nodal_force_n": 1.2683537591628066e-05,
+      "max_tension_n": 0.7922819189559127,
+      "stored_energy_j": 0.0017793525641952386,
+      "max_delta_tension_n": 2.3207300589411783e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_left_distal_crural": {
+      "max_nodal_force_n": 0.8533536598360787,
+      "max_tension_n": 0.7922819189559127,
+      "stored_energy_j": 0.0010987830740971179,
+      "max_delta_tension_n": 2.3207300589411783e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    }
+  },
+  "all_expected_regions_engaged": false,
+  "regional_metrics": {
+    "abdomen": {
+      "max_nodal_force_n": 0.19863885261728179,
+      "max_tension_n": 0.23139096072720325,
+      "stored_energy_j": 0.0005980809320133919,
+      "max_delta_tension_n": 2.0288544447128257e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_abdominal": {
+      "max_nodal_force_n": 1.5281551003377498,
+      "max_tension_n": 1.658382266978425,
+      "stored_energy_j": 0.021178202032988567,
+      "max_delta_tension_n": 3.885772641195814e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_gluteal_pelvis": {
+      "max_nodal_force_n": 6.326035730109442e-06,
+      "max_tension_n": 0.01923336595901749,
+      "stored_energy_j": 1.4819754439372996e-05,
+      "max_delta_tension_n": 1.2806998361813982e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_left_crural": {
+      "max_nodal_force_n": 1.2683537591628066e-05,
+      "max_tension_n": 0.7922819189559127,
+      "stored_energy_j": 0.0017793525641952386,
+      "max_delta_tension_n": 2.3207300589411783e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_left_distal_crural": {
+      "max_nodal_force_n": 0.8533536598360787,
+      "max_tension_n": 0.7922819189559127,
+      "stored_energy_j": 0.0010987830740971179,
+      "max_delta_tension_n": 2.3207300589411783e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_left_distal_thigh": {
+      "max_nodal_force_n": 2.3817502493022604,
+      "max_tension_n": 1.8986996139445789,
+      "stored_energy_j": 0.004626026135233868,
+      "max_delta_tension_n": 4.132409167828272e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_left_elbow": {
+      "max_nodal_force_n": 0.23510902346728837,
+      "max_tension_n": 1.1355211803774377,
+      "stored_energy_j": 0.006870292669199673,
+      "max_delta_tension_n": 2.2752117763310403e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_left_fascia_lata": {
+      "max_nodal_force_n": 7.887567362666918e-06,
+      "max_tension_n": 1.8818754242847116,
+      "stored_energy_j": 0.008771818838113118,
+      "max_delta_tension_n": 2.0049969791588462e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_left_forearm": {
+      "max_nodal_force_n": 1.3941600522955226,
+      "max_tension_n": 1.121596944987425,
+      "stored_energy_j": 0.003348151717897165,
+      "max_delta_tension_n": 1.8276535777628222e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_left_proximal_crural": {
+      "max_nodal_force_n": 0.8444082186220355,
+      "max_tension_n": 0.7855629330688443,
+      "stored_energy_j": 0.0005479736813862055,
+      "max_delta_tension_n": 1.9806814142965534e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_left_proximal_thigh": {
+      "max_nodal_force_n": 0.5783687379690101,
+      "max_tension_n": 2.21877341223976,
+      "stored_energy_j": 0.011502830874015307,
+      "max_delta_tension_n": 1.1008292342164216e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_left_shoulder_girdle": {
+      "max_nodal_force_n": 3.606792668195414,
+      "max_tension_n": 1.6583822669784256,
+      "stored_energy_j": 0.006782967553714489,
+      "max_delta_tension_n": 3.0750412150448714e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_left_thigh_sleeve": {
+      "max_nodal_force_n": 9.548811240799249e-06,
+      "max_tension_n": 1.8986996139445789,
+      "stored_energy_j": 0.00890915779765241,
+      "max_delta_tension_n": 4.132409167828272e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_left_upper_arm": {
+      "max_nodal_force_n": 1.4110899128882845e-06,
+      "max_tension_n": 1.1355211803774377,
+      "stored_energy_j": 0.006654060416451475,
+      "max_delta_tension_n": 3.0750412150448714e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_lumbar": {
+      "max_nodal_force_n": 3.108922699350266e-05,
+      "max_tension_n": 0.02668070441587709,
+      "stored_energy_j": 3.5734583588837805e-05,
+      "max_delta_tension_n": 3.885772641195814e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_pelvic_fascia": {
+      "max_nodal_force_n": 0.7103373647828168,
+      "max_tension_n": 2.21877341223976,
+      "stored_energy_j": 0.020265643955404457,
+      "max_delta_tension_n": 1.9310958986037963e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_right_crural": {
+      "max_nodal_force_n": 4.1446853127988965e-05,
+      "max_tension_n": 0.7853270833704037,
+      "stored_energy_j": 0.0016562921982884,
+      "max_delta_tension_n": 0.0001022760858732652,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_right_distal_crural": {
+      "max_nodal_force_n": 0.8462634080901595,
+      "max_tension_n": 0.7853270833704037,
+      "stored_energy_j": 0.0010634961118980875,
+      "max_delta_tension_n": 0.0001022760858732652,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_right_distal_thigh": {
+      "max_nodal_force_n": 2.4314280684452645,
+      "max_tension_n": 1.8929909567948116,
+      "stored_energy_j": 0.004521841363697479,
+      "max_delta_tension_n": 2.3992606893452617e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_right_elbow": {
+      "max_nodal_force_n": 0.4956699185881251,
+      "max_tension_n": 1.4080324887368372,
+      "stored_energy_j": 0.008061593258497767,
+      "max_delta_tension_n": 2.6511060006922937e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_right_fascia_lata": {
+      "max_nodal_force_n": 1.9183300085719053e-05,
+      "max_tension_n": 1.916053377359952,
+      "stored_energy_j": 0.009038020394342839,
+      "max_delta_tension_n": 3.773639442705701e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_right_forearm": {
+      "max_nodal_force_n": 1.6964029981425068,
+      "max_tension_n": 1.3608247422680397,
+      "stored_energy_j": 0.004080776145094703,
+      "max_delta_tension_n": 2.6511060006922937e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_right_proximal_crural": {
+      "max_nodal_force_n": 0.8432462515692324,
+      "max_tension_n": 0.7839632647484666,
+      "stored_energy_j": 0.0005751734295009825,
+      "max_delta_tension_n": 3.074771830474665e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_right_proximal_thigh": {
+      "max_nodal_force_n": 0.6830179035300316,
+      "max_tension_n": 2.1994664709269554,
+      "stored_energy_j": 0.01120542212077522,
+      "max_delta_tension_n": 3.773639442705701e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_right_shoulder_girdle": {
+      "max_nodal_force_n": 3.5480950276892638,
+      "max_tension_n": 1.6583822669784254,
+      "stored_energy_j": 0.007224972572960339,
+      "max_delta_tension_n": 3.753795196634671e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_right_thigh_sleeve": {
+      "max_nodal_force_n": 1.3453044188375239e-05,
+      "max_tension_n": 1.916053377359952,
+      "stored_energy_j": 0.009236894141198448,
+      "max_delta_tension_n": 2.7945642450052932e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_right_upper_arm": {
+      "max_nodal_force_n": 6.101697028335745e-06,
+      "max_tension_n": 1.4080324887368372,
+      "stored_energy_j": 0.007773074651103413,
+      "max_delta_tension_n": 2.1763237005520408e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_scapular_chest": {
+      "max_nodal_force_n": 2.3118868678801103,
+      "max_tension_n": 1.6583822669784256,
+      "stored_energy_j": 0.0235316218375776,
+      "max_delta_tension_n": 2.019363050399358e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "deep_thoracic": {
+      "max_nodal_force_n": 4.0754487685453646e-06,
+      "max_tension_n": 0.4630254726301911,
+      "stored_energy_j": 0.0008467659466049019,
+      "max_delta_tension_n": 2.019363050399358e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "left_ankle": {
+      "max_nodal_force_n": 0.2503268250569624,
+      "max_tension_n": 0.2441920498125683,
+      "stored_energy_j": 0.00021120577737306976,
+      "max_delta_tension_n": 0.00010774041978320673,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "left_elbow": {
+      "max_nodal_force_n": 0.12367162166282125,
+      "max_tension_n": 0.25544646306738233,
+      "stored_energy_j": 0.0009283611247668101,
+      "max_delta_tension_n": 2.4604469437702588e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "left_forearm": {
+      "max_nodal_force_n": 5.7654058460275586e-08,
+      "max_tension_n": 0.2308769256260024,
+      "stored_energy_j": 0.00023136165856124056,
+      "max_delta_tension_n": 2.4604469437702588e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "left_forefoot": {
+      "max_nodal_force_n": 0.3466174076817778,
+      "max_tension_n": 0.3324811499794857,
+      "stored_energy_j": 0.00045369306438225205,
+      "max_delta_tension_n": 0.12453376256863963,
+      "engaged_edge_count": 3,
+      "engaged_axial_edge_count": 3
+    },
+    "left_heel": {
+      "max_nodal_force_n": 0.33247788993523236,
+      "max_tension_n": 0.33247788993523236,
+      "stored_energy_j": 0.0005246471629918488,
+      "max_delta_tension_n": 0.12453051064899714,
+      "engaged_edge_count": 7,
+      "engaged_axial_edge_count": 4
+    },
+    "left_knee": {
+      "max_nodal_force_n": 0.11763987625511481,
+      "max_tension_n": 0.2573661615439125,
+      "stored_energy_j": 0.0010310903797590809,
+      "max_delta_tension_n": 5.7688442652395824e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "left_lower_leg": {
+      "max_nodal_force_n": 1.7761321622287896e-05,
+      "max_tension_n": 0.26542480775895144,
+      "stored_energy_j": 0.0005440953461085795,
+      "max_delta_tension_n": 0.00010774041978320673,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "left_midfoot": {
+      "max_nodal_force_n": 2.5618254671903135e-05,
+      "max_tension_n": 0.3324811499794857,
+      "stored_energy_j": 0.00096699324295141,
+      "max_delta_tension_n": 0.12453376256863963,
+      "engaged_edge_count": 16,
+      "engaged_axial_edge_count": 7
+    },
+    "left_plantar": {
+      "max_nodal_force_n": 2.790571902079133,
+      "max_tension_n": 1.7750273926774993,
+      "stored_energy_j": 0.011838377605613409,
+      "max_delta_tension_n": 0.4337807533563124,
+      "engaged_edge_count": 33,
+      "engaged_axial_edge_count": 21
+    },
+    "left_proximal_thigh": {
+      "max_nodal_force_n": 0.2696701574582719,
+      "max_tension_n": 0.2397195173704582,
+      "stored_energy_j": 0.0009166550756030416,
+      "max_delta_tension_n": 4.600798208881374e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "left_shoulder": {
+      "max_nodal_force_n": 0.23393273825163405,
+      "max_tension_n": 0.22701347652800655,
+      "stored_energy_j": 0.0003576234335019027,
+      "max_delta_tension_n": 4.412132372365318e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "left_thigh": {
+      "max_nodal_force_n": 2.1828278746812746e-05,
+      "max_tension_n": 0.2359389173694854,
+      "stored_energy_j": 0.0014190336734411653,
+      "max_delta_tension_n": 5.043012741217691e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "left_upper_arm": {
+      "max_nodal_force_n": 1.5842800548987167e-06,
+      "max_tension_n": 0.25544646306738233,
+      "stored_energy_j": 0.0005765669672950978,
+      "max_delta_tension_n": 1.6479220085963142e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "left_upper_leg": {
+      "max_nodal_force_n": 3.392384765392604e-05,
+      "max_tension_n": 0.26542480775895144,
+      "stored_energy_j": 0.0007393267099479066,
+      "max_delta_tension_n": 5.7688442652395824e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "left_wrist": {
+      "max_nodal_force_n": 0.23087692562600243,
+      "max_tension_n": 0.2308769256260024,
+      "stored_energy_j": 0.0001187325219203176,
+      "max_delta_tension_n": 9.039784138520357e-06,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "lumbar": {
+      "max_nodal_force_n": 3.5443193421620814e-05,
+      "max_tension_n": 0.23838087615885678,
+      "stored_energy_j": 0.0011518217812019776,
+      "max_delta_tension_n": 2.0288544447128257e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "neck": {
+      "max_nodal_force_n": 0.15861499055661876,
+      "max_tension_n": 0.09983808792514719,
+      "stored_energy_j": 0.0005360990299061654,
+      "max_delta_tension_n": 2.018183383333677e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "pelvis": {
+      "max_nodal_force_n": 0.24706011350810592,
+      "max_tension_n": 0.2397195173704582,
+      "stored_energy_j": 0.0010278055318538423,
+      "max_delta_tension_n": 2.899084231808291e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "right_ankle": {
+      "max_nodal_force_n": 0.22131229835212538,
+      "max_tension_n": 0.2179229024521541,
+      "stored_energy_j": 0.00022416423733930628,
+      "max_delta_tension_n": 1.2964817504762527e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "right_elbow": {
+      "max_nodal_force_n": 0.15787762079736892,
+      "max_tension_n": 0.23683856271332765,
+      "stored_energy_j": 0.0007086941057428894,
+      "max_delta_tension_n": 2.5604831999589267e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "right_forearm": {
+      "max_nodal_force_n": 9.12564199802436e-08,
+      "max_tension_n": 0.23424944407955178,
+      "stored_energy_j": 0.00023193707399689573,
+      "max_delta_tension_n": 5.384889504550516e-06,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "right_forefoot": {
+      "max_nodal_force_n": 0.2531603291445093,
+      "max_tension_n": 0.21118869870087165,
+      "stored_energy_j": 0.00020852082370309379,
+      "max_delta_tension_n": 2.1174641199864794e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "right_heel": {
+      "max_nodal_force_n": 0.2731623780506893,
+      "max_tension_n": 0.23668165555494614,
+      "stored_energy_j": 0.0002800761266101071,
+      "max_delta_tension_n": 0.00013444140149798737,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "right_knee": {
+      "max_nodal_force_n": 0.06353493396484798,
+      "max_tension_n": 0.25445241771899335,
+      "stored_energy_j": 0.0008269728972620705,
+      "max_delta_tension_n": 7.880280705766136e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "right_lower_leg": {
+      "max_nodal_force_n": 3.336551141914819e-05,
+      "max_tension_n": 0.2473192604100081,
+      "stored_energy_j": 0.000516921695396068,
+      "max_delta_tension_n": 8.223417575642378e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "right_midfoot": {
+      "max_nodal_force_n": 1.4001202302419762e-05,
+      "max_tension_n": 0.23668165555494614,
+      "stored_energy_j": 0.00045021902890575585,
+      "max_delta_tension_n": 0.00014062475532313629,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "right_plantar": {
+      "max_nodal_force_n": 2.2836104038990888,
+      "max_tension_n": 1.7461373370206499,
+      "stored_energy_j": 0.007697813990378434,
+      "max_delta_tension_n": 0.00014062475532313629,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "right_proximal_thigh": {
+      "max_nodal_force_n": 0.11857679857444346,
+      "max_tension_n": 0.22185394250818444,
+      "stored_energy_j": 0.0007402073525234974,
+      "max_delta_tension_n": 2.2662461416106394e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "right_shoulder": {
+      "max_nodal_force_n": 0.25096179762666554,
+      "max_tension_n": 0.23520633786319886,
+      "stored_energy_j": 0.0002714957113193491,
+      "max_delta_tension_n": 4.0408381066732446e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "right_thigh": {
+      "max_nodal_force_n": 2.5911798227635272e-05,
+      "max_tension_n": 0.2496670753325722,
+      "stored_energy_j": 0.0010818458433395862,
+      "max_delta_tension_n": 7.880280705766136e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "right_upper_arm": {
+      "max_nodal_force_n": 1.140444945077479e-06,
+      "max_tension_n": 0.23683856271332765,
+      "stored_energy_j": 0.0005084491800398396,
+      "max_delta_tension_n": 2.7772831589644928e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "right_upper_leg": {
+      "max_nodal_force_n": 2.8111810983493853e-05,
+      "max_tension_n": 0.25445241771899335,
+      "stored_energy_j": 0.0006269571548023472,
+      "max_delta_tension_n": 5.9251322045281304e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "right_wrist": {
+      "max_nodal_force_n": 0.23514528201850718,
+      "max_tension_n": 0.23424944407955178,
+      "stored_energy_j": 0.0001269406581910274,
+      "max_delta_tension_n": 2.780974807917863e-05,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    },
+    "thorax": {
+      "max_nodal_force_n": 5.1706369396178906e-06,
+      "max_tension_n": 0.09745200474696902,
+      "stored_energy_j": 0.0001300441893788288,
+      "max_delta_tension_n": 7.749783958663214e-06,
+      "engaged_edge_count": 0,
+      "engaged_axial_edge_count": 0
+    }
+  }
+}

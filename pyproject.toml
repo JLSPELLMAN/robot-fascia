@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fascia-robot"
+version = "0.1.0"
+description = "Controlled MuJoCo experiments for distributed passive exofascia research"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "mujoco==3.3.7",
+  "numpy==2.3.2",
+  "matplotlib==3.10.5",
+  "PyYAML==6.0.2",
+]
+
+[project.scripts]
+fascia-baseline = "fascia_robot.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["fascia_robot*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

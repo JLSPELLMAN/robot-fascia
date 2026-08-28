@@ -1,0 +1,97 @@
+version: anatomical_exofascia_v1_phase_d
+pretension: 0.0
+axial_materials:
+  superficial:
+    k1_n: 18.0
+    k2_n: 240.0
+    toe_strain: 0.035
+    exponent: 2.0
+    damping_ns_per_m: 0.45
+  deep_trunk:
+    k1_n: 48.0
+    k2_n: 720.0
+    toe_strain: 0.025
+    exponent: 2.0
+    damping_ns_per_m: 0.80
+  deep_pelvis:
+    k1_n: 55.0
+    k2_n: 800.0
+    toe_strain: 0.025
+    exponent: 2.0
+    damping_ns_per_m: 0.80
+  deep_arm:
+    k1_n: 26.0
+    k2_n: 360.0
+    toe_strain: 0.040
+    exponent: 2.0
+    damping_ns_per_m: 0.65
+  deep_thigh:
+    k1_n: 42.0
+    k2_n: 620.0
+    toe_strain: 0.030
+    exponent: 2.0
+    damping_ns_per_m: 0.70
+  deep_crural:
+    k1_n: 46.0
+    k2_n: 680.0
+    toe_strain: 0.030
+    exponent: 2.0
+    damping_ns_per_m: 0.70
+  deep_plantar:
+    k1_n: 60.0
+    k2_n: 900.0
+    toe_strain: 0.020
+    exponent: 2.0
+    damping_ns_per_m: 0.50
+  posterior_cross_body:
+    k1_n: 65.0
+    k2_n: 950.0
+    toe_strain: 0.025
+    exponent: 2.0
+    damping_ns_per_m: 0.75
+  lateral_leg:
+    k1_n: 90.0
+    k2_n: 1300.0
+    toe_strain: 0.020
+    exponent: 2.0
+    damping_ns_per_m: 0.65
+  calf_achilles_plantar:
+    k1_n: 85.0
+    k2_n: 1250.0
+    toe_strain: 0.020
+    exponent: 2.0
+    damping_ns_per_m: 0.45
+  upper_limb_continuity:
+    k1_n: 44.0
+    k2_n: 640.0
+    toe_strain: 0.035
+    exponent: 2.0
+    damping_ns_per_m: 0.70
+direction_multipliers:
+  circumferential: 0.75
+  longitudinal: 1.25
+  diagonal: 1.00
+  plantar_transverse: 0.65
+  plantar_longitudinal: 1.35
+  reinforced: 1.00
+shear_interface:
+  stiffness_n_per_m: 35.0
+  damping_ns_per_m: 0.35
+  maximum_pair_distance_m: 0.11
+  superficial_neighbors_per_deep_node: 2
+quasistatic_solver:
+  force_tolerance_n: 0.00005
+  maximum_iterations: 1200
+  maximum_displacement_m: 0.08
+phase_e_displacements:
+  shoulder_lateral_m: 0.012
+  pelvic_rotation_deg: 4.0
+  ankle_dorsiflexion_deg: 10.0
+  heel_lever_displacement_m: 0.005
+  arm_elevation_deg: 8.0
+  torso_twist_deg: 4.0
+phase_e_validation:
+  assembly_pretension: 0.01
+  reinforced_pathway_pretension: 0.03
+  engagement_delta_tension_n: 0.001
+  maximum_solver_restarts: 3

@@ -1,0 +1,47 @@
+{
+  "experiment": "perturbation_fascia",
+  "fascia_enabled": true,
+  "mass_model": "massless_quasistatic",
+  "pretension": 0.0,
+  "performance_claim": false,
+  "topology_hash": "5d672f6a3d707ea603803587e8d8b75c1df955a9f5401aa8af56c96958fcea13",
+  "node_count": 32,
+  "edge_count": 84,
+  "attachment_count": 8,
+  "peak_edge_tension_n": 0.7229609843584922,
+  "peak_edge_strain": 0.016769673541644735,
+  "active_edges_above_0_01_n": 56,
+  "active_edge_classes_above_0_01_n": [
+    "circumferential",
+    "cross_body",
+    "diagonal",
+    "longitudinal"
+  ],
+  "regional_peak_attachment_force_n": {
+    "bottom_anterior": 0.2861913469510404,
+    "bottom_left": 1.269752186549742,
+    "bottom_posterior": 0.2794404545753513,
+    "bottom_right": 1.3716266371093215,
+    "top_anterior": 0.21876407342847762,
+    "top_left": 0.7129187181399502,
+    "top_posterior": 0.21769505324054525,
+    "top_right": 0.6653724332249331
+  },
+  "peak_free_node_force_residual_n": 7.576440328768458e-06,
+  "peak_net_attachment_force_n": 8.886809045966495e-06,
+  "peak_net_attachment_torque_nm": 1.1479577148517996e-06,
+  "final_net_attachment_force_n": [
+    -2.8472792108266004e-06,
+    6.389341665469228e-08,
+    5.50921091026571e-07
+  ],
+  "final_net_attachment_torque_nm": [
+    8.346009775482294e-09,
+    4.88381694465842e-07,
+    -2.7287265919485187e-08
+  ],
+  "peak_stored_elastic_energy_j": 0.004554864931184746,
+  "final_cumulative_damping_dissipation_j": 0.0017189582228131256,
+  "final_energy_balance_residual_j": -1.7703139935296413e-06,
+  "all_solver_steps_converged": true
+}

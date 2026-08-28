@@ -1,0 +1,19 @@
+{
+  "blind_label": "condition_B",
+  "experiment": "perturbation",
+  "metrics": {
+    "analysis_start_s": 1.0,
+    "peak_joint_jerk_rad_s3": 7570.743153949284,
+    "mean_joint_jerk_rad_s3": 6.93923063178276,
+    "peak_actuator_torque_nm": 32.84764038253021,
+    "absolute_mechanical_actuator_energy_j": 3.948245942743856,
+    "impulse_ns": 9.6,
+    "max_com_displacement_m": 0.04324691519384814,
+    "max_lateral_com_displacement_m": 0.043236840501327596,
+    "max_torso_rotation_deg": 2.3374507367490005,
+    "recovery_time_s": null,
+    "post_impact_lateral_zero_crossings": 6,
+    "recovery_absolute_mechanical_energy_j": 3.948096281545173,
+    "oscillation_count": 6
+  }
+}

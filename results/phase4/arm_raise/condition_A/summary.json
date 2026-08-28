@@ -1,0 +1,21 @@
+{
+  "blind_label": "condition_A",
+  "experiment": "arm_raise",
+  "metrics": {
+    "analysis_start_s": 1.0,
+    "peak_joint_jerk_rad_s3": 1788.435043928309,
+    "mean_joint_jerk_rad_s3": 2.140417765291344,
+    "peak_actuator_torque_nm": 8.66940287791349,
+    "absolute_mechanical_actuator_energy_j": 10.344690641043016,
+    "commanded_amplitude_deg": 70.0,
+    "peak_tracking_error_deg": 4.593236384025176,
+    "overshoot_deg": 0.0,
+    "settling_time_s": 0.0019999999997537543,
+    "peak_commanded_joint_jerk_rad_s3": 254.67494568144943,
+    "commanded_joint_mean_jerk_rad_s3": 15.43570682965325,
+    "max_com_displacement_m": 0.048411975304045916,
+    "max_torso_rotation_deg": 3.9754987010005496,
+    "oscillation_count": 3,
+    "recovery_time_s": 1.1099999999996317
+  }
+}

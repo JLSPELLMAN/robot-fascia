@@ -1,0 +1,15 @@
+{
+  "blind_label": "condition_A",
+  "experiment": "squat",
+  "metrics": {
+    "analysis_start_s": 1.0,
+    "peak_joint_jerk_rad_s3": 105455.73459457331,
+    "mean_joint_jerk_rad_s3": 35.425773975023816,
+    "peak_actuator_torque_nm": 25.103289257846768,
+    "absolute_mechanical_actuator_energy_j": 52.75198520130307,
+    "max_com_displacement_m": 0.057956166221031,
+    "max_torso_rotation_deg": 4.816113129814329,
+    "oscillation_count": 5,
+    "recovery_time_s": null
+  }
+}

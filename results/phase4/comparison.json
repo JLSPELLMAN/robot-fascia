@@ -1,0 +1,188 @@
+{
+  "protocol": "single deterministic paired simulation; conditions analyzed under labels A/B and decoded only after all six trials completed; descriptive, not statistical inference",
+  "configuration_hash": "1b9a316ebcffe3ddce8ccbf87285885c1544c84d8f14e7967a0d3c563d197189",
+  "blinding_seed": 20260825,
+  "decoded_mapping": {
+    "condition_A": "exofascia",
+    "condition_B": "baseline"
+  },
+  "fascia_parameters_optimized": false,
+  "edge_behavior": "tension_only",
+  "pretension": 0.05,
+  "classification_threshold_percent": 0.1,
+  "decoded_fascia_diagnostics": {
+    "arm_raise": {
+      "minimum_edge_tension_n": 0.0,
+      "peak_edge_tension_n": 5.068180007694875,
+      "peak_free_node_residual_n": 1.4600975520628274e-06
+    },
+    "squat": {
+      "minimum_edge_tension_n": 0.0,
+      "peak_edge_tension_n": 4.858337675839122,
+      "peak_free_node_residual_n": 1.546637165867912e-06
+    },
+    "perturbation": {
+      "minimum_edge_tension_n": 0.0,
+      "peak_edge_tension_n": 5.563140375887521,
+      "peak_free_node_residual_n": 1.5397118999039838e-06
+    }
+  },
+  "classification_counts": {
+    "improvement": 7,
+    "regression": 3,
+    "unchanged": 14
+  },
+  "overall_interpretation": "mixed: the fixed exofascia produced both improvements and regressions",
+  "comparisons": {
+    "arm_raise": {
+      "peak_joint_jerk_rad_s3": {
+        "baseline": 1836.6524181482223,
+        "fascia": 1788.435043928309,
+        "percent_change": -2.625285750502963,
+        "classification": "improvement"
+      },
+      "mean_joint_jerk_rad_s3": {
+        "baseline": 2.1505087668572753,
+        "fascia": 2.140417765291344,
+        "percent_change": -0.46923787158879204,
+        "classification": "improvement"
+      },
+      "absolute_mechanical_actuator_energy_j": {
+        "baseline": 10.322451658961956,
+        "fascia": 10.344690641043016,
+        "percent_change": 0.21544283098436112,
+        "classification": "regression"
+      },
+      "peak_actuator_torque_nm": {
+        "baseline": 8.670898527383955,
+        "fascia": 8.66940287791349,
+        "percent_change": -0.01724907131298714,
+        "classification": "unchanged"
+      },
+      "max_com_displacement_m": {
+        "baseline": 0.0484639911673979,
+        "fascia": 0.048411975304045916,
+        "percent_change": -0.10732888913815694,
+        "classification": "improvement"
+      },
+      "max_torso_rotation_deg": {
+        "baseline": 3.992557452925468,
+        "fascia": 3.9754987010005496,
+        "percent_change": -0.427263780823464,
+        "classification": "improvement"
+      },
+      "oscillation_count": {
+        "baseline": 3,
+        "fascia": 3,
+        "percent_change": 0.0,
+        "classification": "unchanged"
+      },
+      "recovery_time_s": {
+        "baseline": 1.1099999999996317,
+        "fascia": 1.1099999999996317,
+        "percent_change": 0.0,
+        "classification": "unchanged"
+      }
+    },
+    "squat": {
+      "peak_joint_jerk_rad_s3": {
+        "baseline": 105608.79701972459,
+        "fascia": 105455.73459457331,
+        "percent_change": -0.14493340466958507,
+        "classification": "improvement"
+      },
+      "mean_joint_jerk_rad_s3": {
+        "baseline": 35.24749247288902,
+        "fascia": 35.425773975023816,
+        "percent_change": 0.5057991069064598,
+        "classification": "regression"
+      },
+      "absolute_mechanical_actuator_energy_j": {
+        "baseline": 52.769977353989006,
+        "fascia": 52.75198520130307,
+        "percent_change": -0.034095433782812684,
+        "classification": "unchanged"
+      },
+      "peak_actuator_torque_nm": {
+        "baseline": 25.102233137667497,
+        "fascia": 25.103289257846768,
+        "percent_change": 0.0042072757968547895,
+        "classification": "unchanged"
+      },
+      "max_com_displacement_m": {
+        "baseline": 0.057957296365040004,
+        "fascia": 0.057956166221031,
+        "percent_change": -0.0019499598495468099,
+        "classification": "unchanged"
+      },
+      "max_torso_rotation_deg": {
+        "baseline": 4.8204080689962,
+        "fascia": 4.816113129814329,
+        "percent_change": -0.08909907875840899,
+        "classification": "unchanged"
+      },
+      "oscillation_count": {
+        "baseline": 5,
+        "fascia": 5,
+        "percent_change": 0.0,
+        "classification": "unchanged"
+      },
+      "recovery_time_s": {
+        "baseline": null,
+        "fascia": null,
+        "percent_change": null,
+        "classification": "unchanged_not_recovered"
+      }
+    },
+    "perturbation": {
+      "peak_joint_jerk_rad_s3": {
+        "baseline": 7570.743153949284,
+        "fascia": 7570.728332780241,
+        "percent_change": -0.0001957690115964037,
+        "classification": "unchanged"
+      },
+      "mean_joint_jerk_rad_s3": {
+        "baseline": 6.93923063178276,
+        "fascia": 6.954694535299115,
+        "percent_change": 0.22284752210898456,
+        "classification": "regression"
+      },
+      "absolute_mechanical_actuator_energy_j": {
+        "baseline": 3.948245942743856,
+        "fascia": 3.9398667009981776,
+        "percent_change": -0.21222694500776407,
+        "classification": "improvement"
+      },
+      "peak_actuator_torque_nm": {
+        "baseline": 32.84764038253021,
+        "fascia": 32.871964615783256,
+        "percent_change": 0.07405169129282049,
+        "classification": "unchanged"
+      },
+      "max_com_displacement_m": {
+        "baseline": 0.04324691519384814,
+        "fascia": 0.04324793655854812,
+        "percent_change": 0.0023617053271830224,
+        "classification": "unchanged"
+      },
+      "max_torso_rotation_deg": {
+        "baseline": 2.3374507367490005,
+        "fascia": 2.3188523219873654,
+        "percent_change": -0.795670876362614,
+        "classification": "improvement"
+      },
+      "oscillation_count": {
+        "baseline": 6,
+        "fascia": 6,
+        "percent_change": 0.0,
+        "classification": "unchanged"
+      },
+      "recovery_time_s": {
+        "baseline": null,
+        "fascia": null,
+        "percent_change": null,
+        "classification": "unchanged_not_recovered"
+      }
+    }
+  }
+}

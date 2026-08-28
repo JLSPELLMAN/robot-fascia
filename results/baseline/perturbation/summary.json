@@ -1,0 +1,40 @@
+{
+  "experiment": "perturbation",
+  "variant": "baseline",
+  "fascia_present": false,
+  "model_source_commit": "da76818e269b82289eba39808e2fb91d679d6994",
+  "mujoco_version": "3.3.7",
+  "timestep_s": 0.002,
+  "seed": 20260825,
+  "energy_definition": "time integral of sum(abs(actuator_torque * joint_velocity)); mechanical, not electrical",
+  "metrics": {
+    "analysis_start_s": 1.0,
+    "peak_joint_jerk_rad_s3": 7570.743153949284,
+    "mean_joint_jerk_rad_s3": 6.93923063178276,
+    "peak_actuator_torque_nm": 32.84764038253021,
+    "absolute_mechanical_actuator_energy_j": 3.948245942743856,
+    "impulse_ns": 9.6,
+    "max_com_displacement_m": 0.04324691519384814,
+    "max_lateral_com_displacement_m": 0.043236840501327596,
+    "max_torso_rotation_deg": 2.3374507367490005,
+    "recovery_time_s": null,
+    "post_impact_lateral_zero_crossings": 6,
+    "recovery_absolute_mechanical_energy_j": 3.948096281545173
+  },
+  "experiment_config": {
+    "duration": 5.0,
+    "warmup": 1.0,
+    "body": "left_shoulder_pitch_link",
+    "axis_world": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "force_newtons": 120.0,
+    "force_start": 1.25,
+    "force_duration": 0.08,
+    "recovery_fraction": 0.05,
+    "recovery_absolute_m": 0.005,
+    "recovery_hold": 0.25
+  }
+}

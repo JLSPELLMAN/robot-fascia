@@ -1,0 +1,33 @@
+{
+  "architecture": "Anatomical Exofascia v1",
+  "phase": "D \u2014 layer mechanics",
+  "optimization_performed": false,
+  "performance_testing_performed": false,
+  "node_count": 412,
+  "edge_count": 1306,
+  "axial_edge_count": 1102,
+  "shear_interface_count": 204,
+  "pretension": 0.0,
+  "zero_state_max_force_n": 0.0,
+  "zero_state_energy_j": 0.0,
+  "net_internal_force_n": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "net_internal_torque_nm": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "topology_hash": "00c5e5f38f9473cfe47ba83ac701dc5198673e40165d491307e6cc78297f8da2",
+  "material_model": "passive tension-only nonlinear toe-region elasticity plus projected Kelvin-Voigt damping",
+  "interface_model": "weak passive central-force layer-pair spring-damper permitting relative glide",
+  "deferred_until_phase_e": [
+    "shoulder propagation",
+    "pelvic rotation",
+    "ankle/foot propagation",
+    "torso twist",
+    "distant-region force validation"
+  ]
+}

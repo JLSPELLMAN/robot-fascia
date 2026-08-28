@@ -1,0 +1,32 @@
+enabled: true
+mass_model: massless_quasistatic
+edge_behavior: tension_only
+# Fixed before Phase 4 performance trials. A static topology-engagement check
+# found 5% to be the smallest tested value keeping every routing class taut;
+# no robot performance metric was inspected during this selection.
+pretension: 0.05
+topology:
+  rings: 4
+  nodes_per_ring: 8
+  ring_z_m: [0.03, 0.11, 0.19, 0.27]
+  ring_radius_x_m: [0.105, 0.115, 0.125, 0.135]
+  ring_radius_y_m: [0.135, 0.145, 0.155, 0.170]
+stiffness_n_per_m:
+  circumferential: 300.0
+  longitudinal: 400.0
+  diagonal: 250.0
+  cross_body: 250.0
+damping_ns_per_m:
+  circumferential: 4.0
+  longitudinal: 5.0
+  diagonal: 3.0
+  cross_body: 3.0
+solver:
+  force_tolerance_n: 1.0e-6
+  position_tolerance_m: 1.0e-10
+  maximum_iterations: 200
+static_test:
+  displacement_m: 0.01
+  duration_s: 1.0
+  hold_s: 0.25
+  samples: 126

@@ -1,0 +1,35 @@
+{
+  "experiment": "arm_raise",
+  "variant": "baseline",
+  "fascia_present": false,
+  "model_source_commit": "da76818e269b82289eba39808e2fb91d679d6994",
+  "mujoco_version": "3.3.7",
+  "timestep_s": 0.002,
+  "seed": 20260825,
+  "energy_definition": "time integral of sum(abs(actuator_torque * joint_velocity)); mechanical, not electrical",
+  "metrics": {
+    "analysis_start_s": 1.0,
+    "peak_joint_jerk_rad_s3": 1836.6524181482223,
+    "mean_joint_jerk_rad_s3": 2.1505087668572753,
+    "peak_actuator_torque_nm": 8.670898527383955,
+    "absolute_mechanical_actuator_energy_j": 10.322451658961956,
+    "commanded_amplitude_deg": 70.0,
+    "peak_tracking_error_deg": 4.592187338707182,
+    "overshoot_deg": 0.0,
+    "settling_time_s": 0.0019999999997537543,
+    "peak_commanded_joint_jerk_rad_s3": 249.86492430405826,
+    "commanded_joint_mean_jerk_rad_s3": 15.413806552145475
+  },
+  "experiment_config": {
+    "duration": 6.0,
+    "warmup": 1.0,
+    "joint": "left_shoulder_pitch_joint",
+    "amplitude_deg": 70.0,
+    "raise_start": 1.25,
+    "raise_end": 2.25,
+    "hold_end": 3.25,
+    "lower_end": 4.25,
+    "settling_tolerance_deg": 2.0,
+    "settling_hold": 0.25
+  }
+}

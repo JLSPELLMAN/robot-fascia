@@ -1,0 +1,46 @@
+model:
+  path: models/g1/scene.xml
+  keyframe: stand
+  timestep: 0.002
+  seed: 20260825
+
+arm_raise:
+  duration: 6.0
+  warmup: 1.0
+  joint: left_shoulder_pitch_joint
+  amplitude_deg: 70.0
+  raise_start: 1.25
+  raise_end: 2.25
+  hold_end: 3.25
+  lower_end: 4.25
+  settling_tolerance_deg: 2.0
+  settling_hold: 0.25
+
+squat:
+  duration: 6.0
+  warmup: 1.0
+  descend_start: 1.25
+  descend_end: 2.25
+  hold_end: 3.25
+  ascend_end: 4.25
+  recovery_absolute_m: 0.005
+  recovery_hold: 0.25
+  joint_offsets_deg:
+    left_hip_pitch_joint: -26.0
+    right_hip_pitch_joint: -26.0
+    left_knee_joint: 52.0
+    right_knee_joint: 52.0
+    left_ankle_pitch_joint: -26.0
+    right_ankle_pitch_joint: -26.0
+
+perturbation:
+  duration: 5.0
+  warmup: 1.0
+  body: left_shoulder_pitch_link
+  axis_world: [0.0, 1.0, 0.0]
+  force_newtons: 120.0
+  force_start: 1.25
+  force_duration: 0.08
+  recovery_fraction: 0.05
+  recovery_absolute_m: 0.005
+  recovery_hold: 0.25

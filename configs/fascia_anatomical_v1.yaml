@@ -1,0 +1,85 @@
+version: anatomical_exofascia_v1_phase_a
+stage: A_full_body_geometry
+model_path: models/g1/scene.xml
+keyframe: stand
+superficial_mesh:
+  torso:
+    rings: 5
+    nodes_per_ring: 8
+    local_z_m: [-0.02, 0.05, 0.12, 0.19, 0.27]
+    radius_x_m: [0.105, 0.115, 0.125, 0.135, 0.115]
+    radius_y_m: [0.135, 0.150, 0.165, 0.175, 0.120]
+  arms:
+    rings_per_arm: 5
+    nodes_per_ring: 6
+    radius_m: [0.060, 0.055, 0.052, 0.046, 0.040]
+  legs:
+    rings_per_leg: 6
+    nodes_per_ring: 6
+    radius_m: [0.085, 0.080, 0.070, 0.062, 0.055, 0.048]
+  feet:
+    rings_per_foot: 3
+    nodes_per_ring: 6
+    longitudinal_offsets_m: [-0.04, 0.06, 0.16]
+    radius_y_m: [0.060, 0.065, 0.055]
+    radius_z_m: [0.030, 0.028, 0.022]
+  connectivity:
+    circumferential: true
+    longitudinal: true
+    alternating_diagonal: true
+    bridge_edges_per_interface: 4
+  evidence_level: exploratory
+attachments:
+  attach_every_node: false
+  selected_angular_indices: [1, 4]
+  torso_cardinal_indices: [0, 2, 4, 6]
+visualization:
+  node_size: 8
+  attachment_size: 38
+  edge_alpha: 0.45
+deep_layers:
+  evidence_level: moderate
+  trunk:
+    rings: 4
+    nodes_per_ring: 8
+    local_z_m: [0.01, 0.09, 0.17, 0.25]
+    radius_x_m: [0.080, 0.088, 0.096, 0.090]
+    radius_y_m: [0.105, 0.115, 0.125, 0.100]
+  arms:
+    rings_per_arm: 4
+    nodes_per_ring: 6
+    radius_m: [0.042, 0.038, 0.034, 0.030]
+  pelvis:
+    rings: 2
+    nodes_per_ring: 8
+    local_z_m: [-0.025, 0.045]
+    radius_x_m: [0.082, 0.090]
+    radius_y_m: [0.105, 0.112]
+  thighs:
+    rings_per_thigh: 4
+    nodes_per_ring: 6
+    radius_m: [0.062, 0.060, 0.055, 0.050]
+  lower_legs:
+    rings_per_leg: 3
+    nodes_per_ring: 6
+    radius_m: [0.046, 0.041, 0.036]
+  plantar:
+    longitudinal_nodes: 4
+    transverse_nodes: 3
+    longitudinal_offsets_m: [-0.05, 0.02, 0.09, 0.16]
+    transverse_offsets_m: [-0.040, 0.0, 0.040]
+    height_m: 0.018
+reinforced_pathways:
+  # Phase C defines routing/evidence only. Mechanical properties arrive in Phase D.
+  posterior_cross_body:
+    tracks_per_direction: 2
+    evidence_level: moderate
+  lateral_leg:
+    tracks_per_side: 1
+    evidence_level: strong
+  calf_achilles_plantar:
+    tracks_per_side: 1
+    evidence_level: strong
+  upper_limb_continuity:
+    tracks_per_side: 2
+    evidence_level: moderate
